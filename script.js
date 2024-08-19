@@ -7,4 +7,5 @@ botonAgregar.addEventListener("click", () => {
     let nuevoElemento = document.createElement("li");
     nuevoElemento.innerHTML = nuevoTexto;
     lista.appendChild(nuevoElemento);
+    inputTexto.value = "";
 })
